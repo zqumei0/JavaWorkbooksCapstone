@@ -1,6 +1,8 @@
 package pojo;
 
-public class CashAccount {
+import java.math.BigDecimal;
 
+public class CashAccount extends TradeAccount {
+  private BigDecimal cashBalance;
 
 }

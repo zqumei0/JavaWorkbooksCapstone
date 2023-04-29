@@ -15,4 +15,6 @@ public abstract class TradeAccount {
     this.id = id;
   }
 
+  public abstract TradeAccount clone();
+
 }

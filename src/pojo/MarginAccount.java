@@ -1,6 +1,8 @@
 package pojo;
 
-public class MarginAccount  {
+import java.math.BigDecimal;
 
+public class MarginAccount  {
+  private BigDecimal margin;
 
 }
